@@ -1,0 +1,181 @@
+﻿@model IEnumerable<Portfolio.Models.Project>
+
+@{
+    ViewBag.Title = "Index";
+    int counter = 0;
+}
+
+
+<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Projects</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    @*<link href="css/simple-sidebar.css" rel="stylesheet">*@
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="body5">
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+
+            @*///////////////lefthand navbar//////////////*@
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="navbar-brand" href='@Url.Action("Index", "Home")'>
+                        <img id="ImgSizeBrand" src="~/Images/Shaker Dreams 012 copy.jpg" />
+                        <DIV STYLE="position:absolute; top:120px; left:96px; width:20px; height:25px">
+                            <CENTER><FONT SIZE="+2" COLOR="000000">Home</FONT></CENTER>
+                        </DIV>
+                    </a>
+                </li>
+                <li><a href="#">@Html.ActionLink("/     About Me     \\", "About", "Home")</a></li>
+                <li><a href="#">@Html.ActionLink("/     Coding Projects     \\", "Index", "Projects")</a></li>
+                @*///////////////Note - Not in MVC due to JSON data - located in Content Folder///////////////////////*@
+                <li><a href="@Url.Content("~/Content/ClevelandHistorical.html")">\  Digital Humanities  /</a></li>
+                <li><a href="#">@Html.ActionLink("\\     Contact     /", "Contact", "Home") </a></li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-Top full">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="textbox">
+                            <h1 class="alignleft">Below are sample student projects, with corresponding links</h1>
+                            <h1 class="alignright">My Projects</h1>
+                        </div>
+                        <div style="clear: both;"></div>
+                        <h2>to the code in GitHub. </h2>
+                        <h3></h3>
+                        <h6></h6>
+
+
+                    </div>
+                </div>
+            </div>
+            @*<div class="container-fluid container-Bottom4 full jumbotron">
+
+                <div class="main section col-lg-12 blur">
+                    <img id="ImgsizeLarge" src="~/Images/unnamed.jpg" />
+                </div>
+            </div>*@
+            <!-- /#page-content-wrapper -->
+
+        </div>
+@*//////////////////////loop through available projects - print out 4 to a row ///////////////////////////////////*@
+        <div id="page-wrap">
+     
+            <div id="body-content" class="row">
+
+                @foreach (var item in Model)
+                {
+                    if (counter != 0 && counter % 4 == 0)
+                    {
+                    @:</div>;
+                    @:<div id="body-content spaced-row" class="row">
+            <br />
+                    <br />
+                    }
+
+                    <div class="col-sm-4 col-md-3">
+                        <div class="thumbnail">
+                            <img id="ImgSizeSmall" src="@Html.DisplayFor(modelItem => item.ScreenshotLink)">
+                            <div class="caption">
+                                <h4>Project Name: @item.ProjectName</h4>
+                                <p>Project Description: @item.ProjectDescription</p>
+                                <p>
+                                    Skills:
+                                    <ul>
+                                        @foreach (var x in item.ProjectSkills)
+                {
+                                            <li>@x.Skill.SkillName</li>
+
+                                        }
+                                    </ul>
+
+                                </p>
+
+                                <p>
+                                    Tags:
+
+                                    <ul>
+
+                                        @foreach (var x in item.ProjectTags)
+                                        {
+
+                                            <li>@x.Tag.TagName</li>
+
+                                        }
+                                    </ul>
+                                </p>
+
+                                <p>GitHub Address: @item.GitHubLink</p>
+
+                                @*<p><a href="#" class="btn btn-primary" role="button">Play Now</a></p>*@
+                                <p>
+                                    @Html.ActionLink("Edit", "Edit", new { id = item.ProjectID }) |
+                                    @Html.ActionLink("Details", "Details", new { id = item.ProjectID }) |
+                                    @Html.ActionLink("Delete", "Delete", new { id = item.ProjectID }) |
+                                    @Html.ActionLink("Create New", "Create")
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    counter++;
+                }
+            </div>
+
+        </div>
+
+        <div class="container-fluid container-bottom5 full">
+
+            <div class="main section col-lg-12">
+                <img id="ImgsizeLarge" src="~/images/RR.jpg" />
+            </div>
+        </div>
+
+
+
+
+
+
+            </div>
+            <!-- /#wrapper -->
+            <!-- jQuery -->
+            @*<script src="js/jquery.js"></script>*@
+
+            <!-- Bootstrap Core JavaScript -->
+
+            @*<script src="js/bootstrap.min.js"></script>*@
+
+
+        </body>
+
+    </html>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PortfolioModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProjectDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="ScreenshotLink" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GitHubLink" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProjectSkills" Relationship="Self.FK_ProjectSkill_Projects" FromRole="Projects" ToRole="ProjectSkill" />
+    <NavigationProperty Name="ProjectTags" Relationship="Self.FK_ProjectTag_Projects" FromRole="Projects" ToRole="ProjectTag" />
+  </EntityType>
+  <EntityType Name="ProjectSkill">
+    <Key>
+      <PropertyRef Name="ProjectSkillID" />
+    </Key>
+    <Property Name="ProjectSkillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SkillID" Type="Int32" Nullable="false" />
+    <Property Name="ProjectID" Type="Int32" Nullable="false" />
+    <Property Name="ProjectSkillLevel" Type="Int32" />
+    <NavigationProperty Name="Project" Relationship="Self.FK_ProjectSkill_Projects" FromRole="ProjectSkill" ToRole="Projects" />
+    <NavigationProperty Name="Skill" Relationship="PortfolioModel.FK_ProjectSkill_Projects1" FromRole="ProjectSkill" ToRole="Skill" />
+  </EntityType>
+  <EntityType Name="ProjectTag">
+    <Key>
+      <PropertyRef Name="ProjectTagID" />
+    </Key>
+    <Property Name="ProjectTagID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TagID" Type="Int32" Nullable="false" />
+    <Property Name="ProjectID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Project" Relationship="Self.FK_ProjectTag_Projects" FromRole="ProjectTag" ToRole="Projects" />
+    <NavigationProperty Name="Tag" Relationship="Self.FK_ProjectTag_Tags" FromRole="ProjectTag" ToRole="Tags" />
+  </EntityType>
+  <EntityType Name="Skill">
+    <Key>
+      <PropertyRef Name="SkillID" />
+    </Key>
+    <Property Name="SkillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SkillName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProjectSkills" Relationship="PortfolioModel.FK_ProjectSkill_Projects1" FromRole="Skill" ToRole="ProjectSkill" />
+  </EntityType>
+  <EntityType Name="Tag">
+    <Key>
+      <PropertyRef Name="TagID" />
+    </Key>
+    <Property Name="TagID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TagName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProjectTags" Relationship="Self.FK_ProjectTag_Tags" FromRole="Tags" ToRole="ProjectTag" />
+  </EntityType>
+  <Association Name="FK_ProjectSkill_Projects">
+    <End Role="Projects" Type="Self.Project" Multiplicity="1" />
+    <End Role="ProjectSkill" Type="Self.ProjectSkill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="ProjectSkill">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectTag_Projects">
+    <End Role="Projects" Type="Self.Project" Multiplicity="1" />
+    <End Role="ProjectTag" Type="Self.ProjectTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="ProjectTag">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectTag_Tags">
+    <End Role="Tags" Type="Self.Tag" Multiplicity="1" />
+    <End Role="ProjectTag" Type="Self.ProjectTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tags">
+        <PropertyRef Name="TagID" />
+      </Principal>
+      <Dependent Role="ProjectTag">
+        <PropertyRef Name="TagID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PortfolioEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Projects" EntityType="Self.Project" />
+    <EntitySet Name="ProjectSkills" EntityType="Self.ProjectSkill" />
+    <EntitySet Name="ProjectTags" EntityType="Self.ProjectTag" />
+    <EntitySet Name="Skills" EntityType="Self.Skill" />
+    <EntitySet Name="Tags" EntityType="Self.Tag" />
+    <AssociationSet Name="FK_ProjectSkill_Projects" Association="Self.FK_ProjectSkill_Projects">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="ProjectSkill" EntitySet="ProjectSkills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectTag_Projects" Association="Self.FK_ProjectTag_Projects">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="ProjectTag" EntitySet="ProjectTags" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectTag_Tags" Association="Self.FK_ProjectTag_Tags">
+      <End Role="Tags" EntitySet="Tags" />
+      <End Role="ProjectTag" EntitySet="ProjectTags" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectSkill_Projects1" Association="PortfolioModel.FK_ProjectSkill_Projects1">
+      <End Role="Skill" EntitySet="Skills" />
+      <End Role="ProjectSkill" EntitySet="ProjectSkills" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_ProjectSkill_Projects1">
+    <End Type="PortfolioModel.Skill" Role="Skill" Multiplicity="1" />
+    <End Type="PortfolioModel.ProjectSkill" Role="ProjectSkill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skill">
+        <PropertyRef Name="SkillID" />
+      </Principal>
+      <Dependent Role="ProjectSkill">
+        <PropertyRef Name="SkillID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

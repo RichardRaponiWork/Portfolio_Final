@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PortfolioModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectName" Type="varchar" MaxLength="50" />
+    <Property Name="ProjectDescription" Type="varchar" MaxLength="500" />
+    <Property Name="ScreenshotLink" Type="varchar" MaxLength="100" />
+    <Property Name="GitHubLink" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ProjectSkill">
+    <Key>
+      <PropertyRef Name="ProjectSkillID" />
+    </Key>
+    <Property Name="ProjectSkillID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SkillID" Type="int" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="ProjectSkillLevel" Type="int" />
+  </EntityType>
+  <EntityType Name="ProjectTag">
+    <Key>
+      <PropertyRef Name="ProjectTagID" />
+    </Key>
+    <Property Name="ProjectTagID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TagID" Type="int" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Skills">
+    <Key>
+      <PropertyRef Name="SkillID" />
+    </Key>
+    <Property Name="SkillID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SkillName" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Tags">
+    <Key>
+      <PropertyRef Name="TagID" />
+    </Key>
+    <Property Name="TagID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TagName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_ProjectSkill_Projects">
+    <End Role="Skills" Type="Self.Skills" Multiplicity="1" />
+    <End Role="ProjectSkill" Type="Self.ProjectSkill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skills">
+        <PropertyRef Name="SkillID" />
+      </Principal>
+      <Dependent Role="ProjectSkill">
+        <PropertyRef Name="SkillID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectSkill_Projects1">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+    <End Role="ProjectSkill" Type="Self.ProjectSkill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="ProjectSkill">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectTag_Projects">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+    <End Role="ProjectTag" Type="Self.ProjectTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="ProjectTag">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectTag_Tags">
+    <End Role="Tags" Type="Self.Tags" Multiplicity="1" />
+    <End Role="ProjectTag" Type="Self.ProjectTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tags">
+        <PropertyRef Name="TagID" />
+      </Principal>
+      <Dependent Role="ProjectTag">
+        <PropertyRef Name="TagID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PortfolioModelStoreContainer">
+    <EntitySet Name="Projects" EntityType="Self.Projects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProjectSkill" EntityType="Self.ProjectSkill" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProjectTag" EntityType="Self.ProjectTag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Skills" EntityType="Self.Skills" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tags" EntityType="Self.Tags" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ProjectSkill_Projects" Association="Self.FK_ProjectSkill_Projects">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="ProjectSkill" EntitySet="ProjectSkill" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectSkill_Projects1" Association="Self.FK_ProjectSkill_Projects1">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="ProjectSkill" EntitySet="ProjectSkill" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectTag_Projects" Association="Self.FK_ProjectTag_Projects">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="ProjectTag" EntitySet="ProjectTag" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectTag_Tags" Association="Self.FK_ProjectTag_Tags">
+      <End Role="Tags" EntitySet="Tags" />
+      <End Role="ProjectTag" EntitySet="ProjectTag" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

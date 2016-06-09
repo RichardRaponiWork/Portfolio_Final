@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="80b811e4095e4664a87e13353235cd44" Name="Diagram1">
+        <EntityTypeShape EntityType="PortfolioModel.Project" Width="1.5" PointX="4.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolioModel.ProjectSkill" Width="1.75" PointX="2.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolioModel.ProjectTag" Width="1.5" PointX="6.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolioModel.Skill" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortfolioModel.Tag" Width="1.5" PointX="8.625" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="PortfolioModel.FK_ProjectSkill_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="PortfolioModel.FK_ProjectTag_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="PortfolioModel.FK_ProjectTag_Tags" ManuallyRouted="false" />
+        <AssociationConnector Association="PortfolioModel.FK_ProjectSkill_Projects1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    @*///////////////lefthand navbar//////////////*@
+    <title>About Me</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    @*<link href="css/simple-sidebar.css" rel="stylesheet">*@
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="body2">
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+
+
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="navbar-brand" href='@Url.Action("Index", "Home")'>
+                        <img id="ImgSizeBrand" src="~/Images/Shaker Dreams 012 copy.jpg" />
+                        <DIV STYLE="position:absolute; top:120px; left:96px; width:20px; height:25px">
+                            <CENTER><FONT SIZE="+2" COLOR="000000">Home</FONT></CENTER>
+                        </DIV>
+                    </a>
+                </li>
+
+                <li><a href="#">@Html.ActionLink("/     About Me     \\", "About", "Home")</a></li>
+
+
+                <li><a href="#">@Html.ActionLink("/     Coding Projects     \\", "Index", "Projects")</a></li>
+                @*///////////////Note - Not in MVC due to JSON data - located in Content Folder///////////////////////*@
+                <li><a href="@Url.Content("~/Content/ClevelandHistorical.html")">\  Cleveland Historical  /</a></li>
+
+
+                <li><a href="#">@Html.ActionLink("\\     Contact     /", "Contact", "Home") </a></li>
+            </ul>
+
+
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-Top2 full">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="textbox">
+                            <h1 class="alignleft">Thanks for visiting my site!</h1>
+                            <h1 class="alignright">About Me</h1>
+                        </div>
+                        <div style="clear: both;"></div>           
+                        <h2> My name is Richard Raponi, and I've lived in Cleveland for about 15 years. I enjoy working</h2>
+                        <h2> with databases, coding, and performing historical research. I am currently seeking  </h2>
+                        <div id="textbox">
+                            <h2 class="alignleft"> opportunities to grow my professional experience as a software developer.</h2>
+
+                            @*//////////////////////////////Link to Resume PDF - Home controller - used to generate view of pdf /////////////////*@
+                            <h2 class="alignright"> <a href="#">@Html.ActionLink("Click Here To Download My Resume", "GetPdf", "Home")</a></h2>
+                        </div>
+                        <div style="clear: both;"></div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid container-Bottom2 full jumbotron">
+
+                <div class="main section col-lg-12 ">
+                    <img id="ImgsizeLarge" src="~/Images/cityview.jpg" />
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    @*<script src="js/jquery.js"></script>*@
+
+    <!-- Bootstrap Core JavaScript -->
+    @*<script src="js/bootstrap.min.js"></script>*@
+
+
+</body>
+
+</html>
+

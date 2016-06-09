@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Portfolio.Models.ProjectSkill>
+
+@{
+    ViewBag.Title = "ProjectSkill";
+}
+
+<h2>ProjectSkill</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectSkillLevel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Project.ProjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Skill.SkillName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @*@Html.ActionLink(item.Skill.SkillName, "ProjectBySkill", new { ID = item.SkillID})*@
+            @Html.DisplayFor(modelitem => item.ProjectSkillLevel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Project.ProjectName)
+        </td>
+        <td>
+            @Html.ActionLink(item.Skill.SkillName, "ProjectBySkill", new { ID = item.SkillID })
+          @Html.DisplayFor(modelItem => item.Skill.SkillName)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.ProjectSkillID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProjectSkillID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProjectSkillID })*@
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,246 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\ApplicationInsights.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\csc.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\System.Collections.Immutable.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\vbc.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\VBCSCompiler.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\roslyn\VBCSCompiler.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Portfolio.dll.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Portfolio.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Portfolio.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Antlr3.Runtime.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\EntityFramework.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\EntityFramework.SqlServer.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.Web.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.WindowsServer.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.ApplicationInsights.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Google.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Web.Infrastructure.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Newtonsoft.Json.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Owin.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Helpers.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Mvc.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Optimization.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Razor.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.WebPages.Deployment.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.WebPages.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.WebPages.Razor.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\WebGrease.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.Web.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AI.WindowsServer.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.ApplicationInsights.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Helpers.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Mvc.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Optimization.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.Razor.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.WebPages.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.WebPages.Deployment.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\System.Web.WebPages.Razor.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Antlr3.Runtime.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Newtonsoft.Json.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\EntityFramework.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\EntityFramework.SqlServer.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Google.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\ApplicationInsights.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\csc.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\vbc.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\VBCSCompiler.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Portfolio.dll.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Portfolio.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Portfolio.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Antlr3.Runtime.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\EntityFramework.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\EntityFramework.SqlServer.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.Web.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Newtonsoft.Json.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Owin.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Helpers.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Mvc.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Optimization.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Razor.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.WebPages.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.WebPages.Razor.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\WebGrease.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.Web.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Helpers.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Mvc.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Optimization.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.Razor.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.WebPages.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\System.Web.WebPages.Razor.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Antlr3.Runtime.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Newtonsoft.Json.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\EntityFramework.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\EntityFramework.SqlServer.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\obj\Debug\Portfolio.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Portfolio - Copy\Portfolio\obj\Debug\Portfolio.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\ApplicationInsights.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\csc.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\vbc.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\VBCSCompiler.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Portfolio.dll.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Portfolio.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Portfolio.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Antlr3.Runtime.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\EntityFramework.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\EntityFramework.SqlServer.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.Web.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Newtonsoft.Json.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Owin.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Helpers.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Mvc.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Optimization.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Razor.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.WebPages.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.WebPages.Razor.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\WebGrease.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.Web.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Helpers.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Mvc.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Optimization.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.Razor.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.WebPages.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\System.Web.WebPages.Razor.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Antlr3.Runtime.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Newtonsoft.Json.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\EntityFramework.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\EntityFramework.SqlServer.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\obj\Debug\Portfolio.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\PortfolioTake2\Portfolio\obj\Debug\Portfolio.pdb
